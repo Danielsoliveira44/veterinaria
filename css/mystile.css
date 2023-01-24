@@ -183,7 +183,10 @@ h1{
     letter-spacing: 0.50px;
     font-size: 16px;
     transition: .3s ease-in-out;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #btn_msg{
@@ -197,7 +200,10 @@ h1{
     border-radius: 3px;
     letter-spacing: 0.50px;
     font-size: 16px;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .btn_index #btn_msg{
     margin: 2px;
