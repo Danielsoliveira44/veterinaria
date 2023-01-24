@@ -13,10 +13,19 @@
 <body>   
     <?php include('header.html'); ?>
     <div class="sobre">
-        <!-- <img src="imagens/banner.jpg" alt="banner" > -->
-        
         <p>Contato</p>
     </div>
+    
+    <div class="contato_img">
+        <img src="imagens/tt-1.png" alt="banner veterinario com cachorro" >
+
+    </div>
+    <div class="titulo_contato">
+                <h1>Esta com duvida ?</h1><br>
+            
+                     <br><p>Deixe seus dados que entraremos em contato para te dar uma<br>
+                     explicação mais detalhada.</p>
+            </div> 
     <?php include('footer.html');?>
 </body>
 </html>

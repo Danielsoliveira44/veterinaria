@@ -13,7 +13,6 @@
 <body>   
     <?php include('header.html'); ?>
     <div class="sobre">
-        <!-- <img src="imagens/banner.jpg" alt="banner" > -->    
         <p>Sobre</p>
     </div>
     <div class="img_sobre">
@@ -36,7 +35,6 @@
         <a href="https://api.whatsapp.com/send/?phone=5511951934537&text&type=phone_number&app_absent=0" id="btn_msg" type="button">ENVIE SUA MENSAGEM</a>        
 
     </div>
-<!-- *antes da mudança* -->
     <?php include('footer.html');?>
 
 </body>

@@ -265,7 +265,31 @@ h1{
     left: 200px;
     font-size: 16pt;
 }
-
+.local{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+iframe{
+    width: 70%;
+}
+.atendimento{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.atendimento h1{
+    color: #000;
+}
+.p_atendimento{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 /*########## servico #############*/
 .servico{
     background-color: #3D3D3D;
@@ -288,6 +312,146 @@ h1{
 .servico img{
     max-height: 300px;
     width: 100%;
+}
+
+.btn_sobre{
+    display: flex;
+    justify-content: end;
+    padding: 0px 70px 50px 0px;
+}
+#btn_servico:hover{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #ffffff;
+    font-weight: 400;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+#btn_msg:hover{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #ffffff;
+    font-weight: 400;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+#btn_servico{
+    padding: 10px 8px;
+    width: 270px;
+    color: #fff;
+    background-color: #31BE52;
+    border: 1px solid #2DB507;
+    border-radius: 5px;
+    height: 37px;
+    border-radius: 3px;
+    letter-spacing: 0.50px;
+    font-size: 16px;
+    transition: .3s ease-in-out;
+    text-align: center;
+}
+
+#btn_msg{
+    padding: 10px 8px;
+    width: 270px;
+    color: #fff;
+    background-color: #0183EA;
+    border: 1px solid #07528f;
+    border-radius: 5px;
+    height: 37px;
+    border-radius: 3px;
+    letter-spacing: 0.50px;
+    font-size: 16px;
+    text-align: center;
+}
+.btn_sobre #btn_msg{
+    margin: 2px;
+}
+.btn_sobre #btn_servico{
+    margin: 2px;
+}
+.img_sobre {
+    display: flex;
+    margin: 50px;
+}
+.img_sobre img{
+    border-radius: 30px;
+}
+/* ######### fim sobre ###########*/
+/* ######### inicio contato ##############*/
+.contato_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contato_img img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.titulo_contato{
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: end;
+    /* align-items: flex-end; */
+    justify-content: end;
+}
+.titulo_contato h1{
+    display: flex;
+    color: #000;
+    text-align: center;
+    justify-content: end;
+}
+.titulo_contato p{
+    display: flex;
+    color: #000;
+    text-align: center;
+    justify-content: end;
+}
+.btn_servico{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0px 0px 0px;
+    
+}
+#btn_msg:hover{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #ffffff;
+    font-weight: 400;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+#btn_servico{
+    padding: 10px 8px;
+    width: 210px;
+    color: #fff;
+    background-color: #0183EA;
+    border: 1px solid #07528f;
+    border-radius: 5px;
+    height: 37px;
+    border-radius: 3px;
+    letter-spacing: 0.50px;
+    font-size: 16px;
+    text-align: center;
+}
+.btn_index #btn_msg{
+    margin: 2px;
 }
 /*################ footer ###################*/
 .elementos{
@@ -389,84 +553,3 @@ h1{
     font-size: 16pt;
     
 }
-
-.btn_sobre{
-    display: flex;
-    justify-content: end;
-    padding: 0px 70px 50px 0px;
-}
-#btn_servico:hover{
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    white-space: nowrap;
-    color: #ffffff;
-    font-weight: 400;
-    position: relative;
-    transition: all 0.3s ease-in-out 0s;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
-    transition-property: all;
-}
-#btn_msg:hover{
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    white-space: nowrap;
-    color: #ffffff;
-    font-weight: 400;
-    position: relative;
-    transition: all 0.3s ease-in-out 0s;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
-    transition-property: all;
-}
-#btn_servico{
-    padding: 10px 8px;
-    width: 270px;
-    color: #fff;
-    background-color: #31BE52;
-    border: 1px solid #2DB507;
-    border-radius: 5px;
-    height: 37px;
-    border-radius: 3px;
-    letter-spacing: 0.50px;
-    font-size: 16px;
-    transition: .3s ease-in-out;
-    text-align: center;
-}
-
-#btn_msg{
-    padding: 10px 8px;
-    width: 270px;
-    color: #fff;
-    background-color: #0183EA;
-    border: 1px solid #07528f;
-    border-radius: 5px;
-    height: 37px;
-    border-radius: 3px;
-    letter-spacing: 0.50px;
-    font-size: 16px;
-    text-align: center;
-}
-.btn_sobre #btn_msg{
-    margin: 2px;
-}
-.btn_sobre #btn_servico{
-    margin: 2px;
-}
-.img_sobre {
-    display: flex;
-    margin: 50px;
-}
-.img_sobre img{
-    border-radius: 30px;
-}
-
-
-
-
-
-
-
-/* <!-- antes da mudança --!> */
